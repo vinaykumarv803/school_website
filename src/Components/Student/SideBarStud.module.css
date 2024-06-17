@@ -1,0 +1,437 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.Link{
+    text-decoration: none;
+}
+
+
+.sidebar{
+    width: 350px;
+    height: 550px;
+    position: relative;
+    border-right: 2px solid#2F5597;
+    display: flex;
+    flex-direction: column;
+    background-color: #D6DCE5;
+    
+}
+
+.schoolTitle{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+ 
+ 
+   
+}
+
+.elements{
+    width: 320px;
+    height: 47px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 2px;
+    padding-left: 20px;
+   text-decoration: none;
+   font-weight: 400;
+   color: black;
+}
+
+
+
+
+.eleContainer{
+    border-radius: 5px;
+
+    height: 525px;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    margin-top: 5px;
+    padding-top: 15px;
+   
+}
+
+.elements:hover{
+    background-color: #2F5597;
+    color: white;
+    
+}
+
+.titleDiv{
+    width: 100%;
+    height: 100px;
+    border: 1px solid black;
+
+    right: 5px;
+    top:5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+   
+
+}
+
+.mainContainer{
+    width: 984px;
+    position: absolute;
+    right: 5px;
+}
+
+.contentDiv{
+    width: 100%;
+    height: 525px;
+    border: 1px solid black;
+    margin-top: 5px;
+    border-radius: 5px;
+} 
+
+.pannelName{
+    position: absolute;
+    right: 7px;
+    top: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+   
+    border-bottom-left-radius: 10px;
+    background-color:#2F5597;
+    font-size: 15px;
+    color:white
+
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .Link {
+        text-decoration: none;
+    }
+
+
+    .sidebar {
+       display: none;
+
+    }
+
+
+    .elements {
+        width:230px;
+        height: 35px;
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        border-radius: 5px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-left: 20px;
+        text-decoration: none;
+        font-weight: 400;
+        color: white;
+        background-color: #2F5597;
+    }
+
+    .slideBox{
+        display: flex;
+        flex-direction: column;
+       
+    }
+
+
+    .titleDiv {
+        width: 100%;
+        height: 100px;
+        border: 1px solid black;
+        right: 5px;
+        top: 5px;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+
+
+    }
+
+    .mainContainer {
+        width: 984px;
+        position: absolute;
+        right: 5px;
+    }
+
+    .contentDiv {
+        width: 100%;
+        height: 525px;
+        border: 1px solid black;
+        margin-top: 5px;
+        border-radius: 5px;
+    }
+
+    .pannelName {
+        position: absolute;
+        right: 7px;
+        top: 0px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 700;
+        border-bottom-left-radius: 10px;
+        background-color: #2F5597;
+        font-size: 15px;
+        color: white
+    }
+
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .Link {
+        text-decoration: none;
+    }
+
+
+    .sidebar {
+        width: 300px;
+        height: 550px;
+        position: relative;
+        border-right: 2px solid#2F5597;
+        display: flex;
+        flex-direction: column;
+        background-color: #D6DCE5;
+
+    }
+
+    .schoolTitle {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+
+
+
+    }
+
+    .elements {
+        width: 280px;
+        height: 47px;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        border-radius: 5px;
+        margin: 2px;
+        padding-left: 20px;
+        text-decoration: none;
+        font-weight: 400;
+        color: black;
+        border: 1px solid black;
+        background-color: #2F5597;
+        color: white;
+        transition: all 0.4s ease;
+    }
+
+ 
+
+    .elements:active{
+        transform: scale(0.9);
+    }
+
+   
+
+    .elements:hover {
+        background-color: #06368a;
+        color: white;
+
+    }
+
+    .titleDiv {
+        width: 100%;
+        height: 100px;
+        /* border: 1px solid black; */
+        right: 5px;
+        top: 5px;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+
+
+    }
+
+    /* .mainContainer {
+        width: 984px;
+        position: absolute;
+        right: 5px;
+    } */
+
+    .contentDiv {
+        width: 100%;
+        height: 525px;
+        border: 1px solid black;
+        margin-top: 5px;
+        border-radius: 5px;
+    }
+
+    .pannelName {
+        height: 30px;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 700;
+        border-bottom-left-radius: 10px;
+        background-color: #2F5597;
+        font-size: 15px;
+        color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
+}
+
+
+
+@media (min-width: 480px) and (max-width: 768px) 
+{
+    .Link{
+        text-decoration: none;
+    }
+    
+    
+    .sidebar{
+        width: 220px;
+        height: 550px;
+        position: relative;
+        border-right: 2px solid#2F5597;
+        display: flex;
+        flex-direction: column;
+        background-color: #D6DCE5;
+        
+    }
+    
+    .schoolTitle{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+     
+     
+       
+    }
+    
+    .elements{
+        width: 200px;
+        height: 47px;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        border-radius: 5px;
+        margin: 2px;
+        padding-left: 10px;
+       text-decoration: none;
+       font-weight: 400;
+       color: white;
+       background-color: #2F5597;
+       transition: all 0.4s ease;
+    }
+
+    .elements:active{
+        transform: scale(0.9);
+        background-color: #06368a;
+    }
+
+   
+
+    .elements:hover {
+        background-color: #06368a;
+        color: white;
+
+    }
+    
+    
+    
+    
+    /* .eleContainer{
+        border-radius: 5px;
+    
+        height: 525px;
+        display: flex;
+        flex-direction: column;
+    
+        align-items: center;
+        margin-top: 5px;
+        padding-top: 15px;
+       
+    } */
+    
+    .elements:hover{
+        background-color: #2F5597;
+        color: white;
+        
+    }
+    
+    .titleDiv{
+        width: 100%;
+        height: 100px;
+        border: 1px solid black;
+    
+        right: 5px;
+        top:5px;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+       
+    
+    }
+    
+    .mainContainer{
+        width: 984px;
+        position: absolute;
+        right: 5px;
+    }
+    
+    .contentDiv{
+        width: 100%;
+        height: 525px;
+        border: 1px solid black;
+        margin-top: 5px;
+        border-radius: 5px;
+    } 
+    
+    .pannelName{
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 700;
+        border-bottom-left-radius: 10px;
+        background-color:#2F5597;
+        font-size: 15px;
+        color:white;
+        padding-left: 10px;
+        padding-right: 10px;
+    
+    }
+}
+
