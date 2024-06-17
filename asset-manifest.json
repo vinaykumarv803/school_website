@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/school_website/static/css/main.98d5477b.css",
+    "main.js": "/school_website/static/js/main.5a897132.js",
+    "static/js/453.aa00bfbf.chunk.js": "/school_website/static/js/453.aa00bfbf.chunk.js",
+    "static/media/img3.jpg": "/school_website/static/media/img3.aceb4dc2c0ec8d6a4d47.jpg",
+    "static/media/img2.jpg": "/school_website/static/media/img2.d3f81eec4d4a5579f898.jpg",
+    "static/media/img1.jpg": "/school_website/static/media/img1.c58c11c257b9150051fe.jpg",
+    "static/media/logo.png": "/school_website/static/media/logo.598d1c202043f29cf53a.png",
+    "index.html": "/school_website/index.html",
+    "main.98d5477b.css.map": "/school_website/static/css/main.98d5477b.css.map",
+    "main.5a897132.js.map": "/school_website/static/js/main.5a897132.js.map",
+    "453.aa00bfbf.chunk.js.map": "/school_website/static/js/453.aa00bfbf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.98d5477b.css",
+    "static/js/main.5a897132.js"
+  ]
+}
